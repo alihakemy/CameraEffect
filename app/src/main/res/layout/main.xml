@@ -9,15 +9,15 @@
     android:keepScreenOn="true">
 
 
-  <com.hakemy.cameraeffect.camera.CameraSourcePreview
+  <com.hakemy.cameraeffect.ui.camera.CameraSourcePreview
       android:layout_width="match_parent"
       android:id="@+id/preview"
       android:layout_height="match_parent"
       >
 
-    <com.hakemy.cameraeffect.camera.GraphicOverlay
+    <com.hakemy.cameraeffect.ui.camera.GraphicOverlay
         android:id="@+id/faceOverlay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-  </com.hakemy.cameraeffect.camera.CameraSourcePreview>
+  </com.hakemy.cameraeffect.ui.camera.CameraSourcePreview>
 </LinearLayout>
